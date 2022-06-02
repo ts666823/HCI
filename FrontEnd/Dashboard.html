@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN" style="height: 100%">
+
+</html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.3.2/dist/echarts.min.js"></script>
+    <title>1952293TangShuoLab</title>
+</head>
+
+<body>
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="stackAreaContainer" style="height:400px; width:1400px"></div>
+    <div id="columnContainer" style="height: 420px; width: 460px;display:inline-block; margin-top: 30px;"></div>
+    <div id="columnContainer1" style="height: 420px; width: 460px;display:inline-block; margin-top: 30px;"></div>
+    <div id="columnContainer2" style="height: 420px; width: 460px;display:inline-block; margin-top: 30px;"></div>
+    <div id="nightingaleContainer" style="height: 600px;margin-top: 30px;"></div>
+    <p style="display:inline-block"> Choose a category </p>
+    <select id='category_selector' style="display:inline-block">
+    </select>
+    <!-- ECharts单文件引入 -->
+    <script type="text/javascript" src="./script.js"></script>
+</body>
